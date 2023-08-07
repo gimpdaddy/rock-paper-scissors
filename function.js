@@ -22,24 +22,6 @@ playerBtns.forEach(function(btn) { //add eventListener for each playerBtn
     })
 })
 
-// if (playerWins + playerLoses + playerDraws === 5) {
-           
-//     if (playerWins > playerLoses) {
-//         score.innerHTML = 'Player wins!'
-//     } else if (playerWins < playerLoses) {
-//         score.innerHTML = 'Player loses!'
-//     } else {
-//         score.innerHTML = 'Draw';
-//     }
-
-//     playerWins = 0;
-//     playerLoses = 0;
-//     playerDraws = 0;
-
-// } else {
-//     score.innerHTML = `Wins:${playerWins} Lose:${playerLoses} Draw:${playerDraws}`;
-// }
-
 //function to play round 5 times and record results
 function game(numGames = 1) {
     // for loop to iterate playRound() 5 times
